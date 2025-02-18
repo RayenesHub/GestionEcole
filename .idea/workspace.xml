@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventRestAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/architecture-microservices.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/async-communication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/diagramme-classe-domaine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/diagramme-classe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/indexDoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/Database/Data/Candidat.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/Candidat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatRespository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatRestApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/test/java/esprit/candidat/CandidatApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/main/java/esprit/job/JobApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/test/java/esprit/job/JobApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,33 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CandidatApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.JobApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.StudentApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.condidat2.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/ESPRIT/Cours/cours ESPRIT 2025/MicroService/projetSAE5/microservices/candidat&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CandidatApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.JobApplication.executor": "Debug",
+    "Spring Boot.StudentApplication.executor": "Debug",
+    "Spring Boot.condidat2.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reactor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -170,6 +139,7 @@
       <workItem from="1739874701811" duration="1902000" />
       <workItem from="1739876631804" duration="3957000" />
       <workItem from="1739880750073" duration="1064000" />
+      <workItem from="1739902363937" duration="1473000" />
     </task>
     <servers />
   </component>
