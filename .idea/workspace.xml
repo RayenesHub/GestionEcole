@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventRestAPI.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +44,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
@@ -63,6 +70,33 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reactor",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CandidatApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JobApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.StudentApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.condidat2.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/IdeaProjects/GestionEcole/backend/microservices/mailing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -98,6 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mailing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Student" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
@@ -106,6 +147,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.MailingApplication" />
       <item itemvalue="Spring Boot.StudentApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -139,7 +181,12 @@
       <workItem from="1739874701811" duration="1902000" />
       <workItem from="1739876631804" duration="3957000" />
       <workItem from="1739880750073" duration="1064000" />
+<<<<<<< HEAD
       <workItem from="1739902363937" duration="1473000" />
+=======
+      <workItem from="1739901859000" duration="2152000" />
+      <workItem from="1739904907787" duration="114000" />
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
     </task>
     <servers />
   </component>
