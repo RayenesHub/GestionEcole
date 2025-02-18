@@ -5,40 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/architecture-microservices.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/async-communication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/diagramme-classe-domaine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/diagramme-classe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/indexDoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/Database/Data/Candidat.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/Candidat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatRespository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatRestApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/java/esprit/candidat/CandidatService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/candidat/src/test/java/esprit/candidat/CandidatApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/main/java/esprit/job/JobApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/job/src/test/java/esprit/job/JobApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +55,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/ESPRIT/Cours/cours ESPRIT 2025/MicroService/projetSAE5/microservices/candidat&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/IdeaProjects/GestionEcole/backend/microservices/mailing&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -129,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mailing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Student" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
@@ -137,6 +114,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.MailingApplication" />
       <item itemvalue="Spring Boot.StudentApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -170,6 +148,8 @@
       <workItem from="1739874701811" duration="1902000" />
       <workItem from="1739876631804" duration="3957000" />
       <workItem from="1739880750073" duration="1064000" />
+      <workItem from="1739901859000" duration="2152000" />
+      <workItem from="1739904907787" duration="114000" />
     </task>
     <servers />
   </component>
