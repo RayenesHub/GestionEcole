@@ -1,0 +1,42 @@
+# Student Management Microservice
+
+This project is part of a school management system built using microservices architecture with Spring Boot.  
+It handles class and student management, as well as a bonus feature that fetches inspirational quotes from a public API.
+
+## Features
+
+- Add, delete, and view classes
+- Add, delete, and view students
+- Assign a student to a class
+- Retrieve an inspirational quote for a given class (`/classes/{id}/inspiration`)
+
+## Technologies Used
+
+- Java 17  
+- Spring Boot  
+- Spring Data JPA  
+- REST API  
+- MySQL  
+- Postman  
+- Eureka (Client)  
+- Maven  
+- Docker
+
+## Getting Started
+
+### 1. Prerequisites
+
+- Java 17  
+- Maven  
+- Docker  
+- MySQL  
+- An IDE (e.g., IntelliJ IDEA)
+
+---
+
+### 2. Database Setup (if not using Docker)
+
+If you prefer to set up MySQL manually, create a database named `student_db`:
+
+```sql
+CREATE DATABASE student_db;
