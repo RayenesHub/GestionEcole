@@ -40,3 +40,30 @@ If you prefer to set up MySQL manually, create a database named `student_db`:
 
 ```sql
 CREATE DATABASE student_db;
+
+
+# Mailing Management Microservice
+
+This project is part of a school management system built using microservices architecture with Spring Boot.  
+It handles email notifications and communication.
+
+## Features
+
+- Add, delete, and view classes
+- Add, delete, and view emails
+
+## Technologies Used
+
+- Java 17  
+- Spring Boot  
+- Spring Data JPA  
+- REST API  
+- MySQL  
+- Postman  
+- Eureka (Client)  
+- Maven  
+- Docker
+
+
+## Database 
+mailing_db
