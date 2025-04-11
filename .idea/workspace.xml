@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventRestAPI.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/architecture-microservices.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/async-communication.html" beforeDir="false" />
@@ -33,6 +44,12 @@
         <option value="Class" />
       </list>
     </option>
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservices" />
@@ -51,9 +68,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "JavaScript Debug.Architecture Logique.drawio.html.executor": "Debug",
+=======
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -63,12 +84,18 @@
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.JobApplication.executor": "Debug",
+<<<<<<< HEAD
     "Spring Boot.StudentApplication.executor": "Run",
     "Spring Boot.condidat2.executor": "Run",
     "git-widget-placeholder": "student",
+=======
+    "Spring Boot.StudentApplication.executor": "Debug",
+    "Spring Boot.condidat2.executor": "Run",
+    "git-widget-placeholder": "main",
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hp/Desktop/ESPRIT/Cours/cours ESPRIT 2025/MicroService/projetSAE5/microservices/candidat",
+    "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +104,33 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reactor",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CandidatApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JobApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.StudentApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.condidat2.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/IdeaProjects/GestionEcole/backend/microservices/mailing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -97,10 +151,14 @@
       </set>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="Architecture Logique.drawio.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/indexDoc.html/documentation/Architecture Logique.drawio.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+=======
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.eurekaserver.EurekaServerApplication" />
@@ -115,6 +173,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mailing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Student" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
@@ -123,16 +191,23 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JavaScript Debug.Architecture Logique.drawio.html" />
+=======
+      <item itemvalue="Spring Boot.MailingApplication" />
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
       <item itemvalue="Spring Boot.StudentApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.Architecture Logique.drawio.html" />
       </list>
     </recent_temporary>
+=======
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -161,6 +236,7 @@
       <workItem from="1739831493748" duration="1349000" />
       <workItem from="1739874701811" duration="1902000" />
       <workItem from="1739876631804" duration="3957000" />
+<<<<<<< HEAD
       <workItem from="1739880750073" duration="4489000" />
       <workItem from="1740140991362" duration="667000" />
       <workItem from="1740562709416" duration="904000" />
@@ -168,6 +244,15 @@
       <workItem from="1743939971725" duration="101000" />
       <workItem from="1743941240213" duration="170000" />
       <workItem from="1744372349769" duration="6793000" />
+=======
+      <workItem from="1739880750073" duration="1064000" />
+<<<<<<< HEAD
+      <workItem from="1739902363937" duration="1473000" />
+=======
+      <workItem from="1739901859000" duration="2152000" />
+      <workItem from="1739904907787" duration="114000" />
+>>>>>>> d3e8d7a6c616f29f989c772e702da43806ddbc46
+>>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     </task>
     <servers />
   </component>
