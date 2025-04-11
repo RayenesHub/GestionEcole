@@ -1,31 +1,4 @@
-version: '3.8'
-
 services:
-  # Eureka Server
-  eureka:
-    build: ./eureka
-    image: rayene8/backend-eureka:latest
-    container_name: eureka-server
-    ports:
-      - "8761:8761"
-    networks:
-      - microservices-network
-
-  # API Gateway
-  gateway:
-    build: ./gateway
-    image: rayene8/backend-gateway:latest
-    container_name: gateway-service
-    ports:
-      - "8085:8085"
-    depends_on:
-      - eureka
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
-    networks:
-      - microservices-network
-
-  # MySQL Database
   mysql:
     image: mysql:8
     container_name: mysql
@@ -38,21 +11,18 @@ services:
     networks:
       - microservices-network
 
-  # School Microservice
-  school:
-    build: ./microservices/student
-    image: aminehor/school
-    container_name: school-service
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: root
     depends_on:
       - mysql
-      - eureka
-    ports:
-      - "8080:8080"
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/school_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
     networks:
       - microservices-network
 
