@@ -1,68 +1,64 @@
-# Student Management Microservice
+🏫 School Management - Microservices Training Project
+📌 About the Project
+School Management is an academic project developed to help students understand microservices architecture by implementing a real-world school management system. The system covers multiple domains like student, teacher, equipment, events, and mailing services, and is designed using Spring Boot, Docker, Kafka, and other modern technologies.
 
-This project is part of a school management system built using microservices architecture with Spring Boot.  
-It handles class and student management, as well as a bonus feature that fetches inspirational quotes from a public API.
+🏗️ Project Architecture
 
-## Features
-
-- Add, delete, and view classes
-- Add, delete, and view students
-- Assign a student to a class
-- Retrieve an inspirational quote for a given class (`/classes/{id}/inspiration`)
-
-## Technologies Used
-
-- Java 17  
-- Spring Boot  
-- Spring Data JPA  
-- REST API  
-- MySQL  
-- Postman  
-- Eureka (Client)  
-- Maven  
-- Docker
-
-## Getting Started
-
-### 1. Prerequisites
-
-- Java 17  
-- Maven  
-- Docker  
-- MySQL  
-- An IDE (e.g., IntelliJ IDEA)
-
----
-
-### 2. Database Setup (if not using Docker)
-
-If you prefer to set up MySQL manually, create a database named `student_db`:
-
-```sql
-CREATE DATABASE student_db;
+![Architecture Logique](./documentation/Architecture%20Logique.drawio.html)
 
 
-# Mailing Management Microservice
 
-This project is part of a school management system built using microservices architecture with Spring Boot.  
-It handles email notifications and communication.
+🎯 Main Goal
+The primary objective of this project is to provide students with:
 
-## Features
+✅ A practical understanding of microservices architecture.
+✅ Hands-on experience in service decomposition, inter-service communication, and asynchronous messaging with Kafka.
+✅ Use of modern tools and frameworks for scalable and maintainable applications.
 
-- Add, delete, and view emails
+🧰 Technologies & Concepts
+Throughout this training, the project covers:
 
-## Technologies Used
+Spring Boot for microservices development
 
-- Java 17  
-- Spring Boot  
-- Spring Data JPA  
-- REST API  
-- MySQL  
-- Postman  
-- Eureka (Client)  
-- Maven  
-- Docker
+Spring Cloud Eureka for service discovery
+
+Spring Cloud Gateway as API Gateway
+
+Kafka for asynchronous messaging
+
+MySQL and MongoDB for data persistence
+
+Docker & Docker Compose for containerization
+
+Angular for the frontend
+
+Keycloak for authentication (to be added)
+
+Spring Data JPA and Spring Data MongoDB for data access
+
+🧠 Learning Outcome
+By the end of this training, students will be able to:
+
+Design domain-driven microservices
+
+Build a scalable school management platform
+
+Deploy services with Docker and manage with Eureka and Kafka
+
+Understand and implement event-driven communication
+
+🧱 Domain Decomposition
+Each microservice is responsible for its own domain:
+
+Microservice	Description
+Student Service	Manages students and classes
+Teacher Service	Handles teacher and subjects
+Equipment Service	Manages school equipment inventory
+Event Service	Registers events (meetings, exams)
+Mailing Service	Sends emails via Kafka
+School Service	Central info about the school
 
 
-## Database 
-mailing_db
+📘 Class Diagram
+
+![Diagramme de classe](./documentation/diagramme_classe.png)
