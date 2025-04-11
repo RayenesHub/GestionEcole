@@ -1,0 +1,44 @@
+services:
+    #service name
+    eureka:
+        build: ./eureka
+        #image name
+        #rayene8 docker username
+        image: rayene8/backend-eureka:latest
+        container_name: eureka-server
+        ports:
+        - "8761:8761"
+        networks:
+        - microservices-network
+    #serice name
+    gateway:
+        build: ./gateway
+        image: rayene8/backend-gateway:latest
+        container_name: gateway-service
+        ports:
+        - "8085:8085"
+        depends_on:
+        - eureka
+        #le gateway sera lancé en tant que client eureka
+        environment:
+        - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+        networks:
+        - microservices-network
+
+    mailing-service:
+        build: ./microservices/mailing
+        image: rayene8/backend-mailing-service:latest
+        container_name: mailing-service
+        ports:
+        - "8082:8082"
+        depends_on:
+        - eureka
+        - gateway
+        environment:
+        - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+        networks:
+        - microservices-network
+
+networks:
+  microservices-network:
+    driver: bridge
