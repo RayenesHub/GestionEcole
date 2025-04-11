@@ -7,10 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-=======
         <module name="mailing" />
->>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
         <module name="eurekaServer" />
         <module name="gateway" />
       </profile>
@@ -19,31 +16,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-<<<<<<< HEAD
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-=======
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
->>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
         </processorPath>
         <module name="Student" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="candidat" target="17" />
-      <module name="job" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Student" options="-parameters" />
-      <module name="candidat" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="job" options="-parameters" />
-<<<<<<< HEAD
-=======
       <module name="mailing" options="-parameters" />
->>>>>>> d75a93e4f15c846dac495968a131631f2611bc45
     </option>
   </component>
 </project>

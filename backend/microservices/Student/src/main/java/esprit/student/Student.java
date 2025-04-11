@@ -1,27 +1,39 @@
 package esprit.student;
 
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Student {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String firstName;
     private String lastName;
     private String dateOfBirth;
 
-    public Student() {
-    }
+    @ManyToOne
+    @JoinColumn(name = "classe_id") // FK dans table Student
+    private Classe classe;
 
-    public Student(String lastName, String firstName, String dateOfBirth) {
+    public Student() {}
+
+    public Student(String lastName, String firstName, String dateOfBirth, Classe classe) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.dateOfBirth = dateOfBirth;
+        this.classe = classe;
+    }
+
+    // Getters and setters
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -30,10 +42,6 @@ public class Student {
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
-    }
-
-    public Long getId() {
-        return id;
     }
 
     public String getLastName() {
@@ -51,5 +59,12 @@ public class Student {
     public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
-}
 
+    public Classe getClasse() {
+        return classe;
+    }
+
+    public void setClasse(Classe classe) {
+        this.classe = classe;
+    }
+}

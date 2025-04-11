@@ -1,0 +1,54 @@
+services:
+  eureka:
+    build: ./backend/eurekaServer
+    image: rihem09/backend-eureka:latest
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - microservices-network
+
+  gateway:
+    build: ./backend/gateway
+    image: rihem09/backend-gateway:latest
+    container_name: gateway-service
+    ports:
+      - "8065:8065"
+    depends_on:
+      - eureka
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+    networks:
+      - microservices-network
+
+  student-service:
+    build: ./backend/microservices/Student
+    image: rihem09/backend-student-service:latest
+    container_name: student-service
+    ports:
+      - "8045:8045"
+    depends_on:
+      - eureka
+      - gateway
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/student_db
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    networks:
+      - microservices-network
+
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_DATABASE: student_db
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - microservices-network
+
+networks:
+  microservices-network:
+    name: microservices-network
