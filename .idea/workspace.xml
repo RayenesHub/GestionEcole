@@ -5,85 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/eurekaServer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/src/main/java/esprit/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/src/main/java/esprit/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/eurekaServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/eurekaServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/gateway/src/test/java/esprit/gateway/GatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/test/java/esprit/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/test/java/esprit/student/StudentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/test/java/esprit/student/StudentApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/microservices.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/Classe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/ClasseInspirationResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/ClasseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/ClasseRestApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/ClasseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/QuoteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentRestApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/java/esprit/student/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/Student/src/test/java/esprit/student/StudentApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/src/main/java/esprit/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/eurekaServer/src/test/java/esprit/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/src/main/java/esprit/gateway/GatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/gateway/src/test/java/esprit/gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,33 +19,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="Interface" />
         <option value="Dockerfile" />
       </list>
     </option>
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
 }]]></component>
+  <component name="ProjectId" id="2vba6GiBMr4dJC7QVXnUOtrnwWz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Equipement [clean].executor": "Run",
+    "Maven.Equipement [install].executor": "Run",
     "Maven.Student [clean].executor": "Run",
     "Maven.Student [install].executor": "Run",
+    "Maven.config-server [clean].executor": "Run",
+    "Maven.config-server [install].executor": "Run",
     "Maven.eurekaServer [clean].executor": "Run",
     "Maven.eurekaServer [install].executor": "Run",
     "Maven.gateway [clean].executor": "Run",
     "Maven.gateway [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.StudentApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -154,6 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquipementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Equipement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.equipement.EquipementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.eurekaserver.EurekaServerApplication" />
@@ -168,6 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mailing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Student" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
@@ -176,27 +139,30 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8199408-6da7-452d-9955-9e005b151569" name="Changes" comment="" />
+      <changelist id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="" />
       <created>1744399402497</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744399402497</updated>
       <workItem from="1744399404106" duration="8478000" />
+      <workItem from="1744416051797" duration="2564000" />
     </task>
     <servers />
   </component>
