@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a097fd41-8f6a-4d46-a9c9-bbe7e76fd1f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/Event/src/main/java/esprit/event/EventRestAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2tEFy5NJqIsLls35VtR7jNrPrYd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,9 +28,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole/backend",
+    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,8 +43,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -56,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739909578438</updated>
       <workItem from="1739909579649" duration="649000" />
+      <workItem from="1744544612043" duration="34000" />
     </task>
     <servers />
   </component>

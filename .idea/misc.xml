@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/backend/eurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/backend/microservices/Equipement/pom.xml" />
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/microservices/Event/pom.xml" />
       </list>
     </option>
   </component>

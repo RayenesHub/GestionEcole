@@ -1,0 +1,28 @@
+<table class="table ..." *ngIf="equipements">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>État</th>
+        <th>Marque</th>
+        <th>Date d'achat</th>
+        <th>Date de maintenance</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of equipements">
+        <td>{{ e.name }}</td>
+        <td>{{ e.category }}</td>
+        <td>{{ e.etat }}</td>
+        <td>{{ e.marque }}</td>
+        <td>{{ e.dateAchat }}</td>
+        <td>{{ e.dateMaintenance }}</td>
+        <td>
+          <button (click)="onEdit(e)" class="btn btn-warning btn-sm me-2">✏️</button>
+          <button (click)="onDelete(e.id!)" class="btn btn-danger btn-sm">🗑️</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ 

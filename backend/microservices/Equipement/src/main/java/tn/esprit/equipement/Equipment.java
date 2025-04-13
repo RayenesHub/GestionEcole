@@ -1,25 +1,36 @@
 package tn.esprit.equipement;
 
-import jakarta.persistence.*;
-import lombok.*;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 import lombok.experimental.FieldDefaults;
+
+import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Equipment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    Long id;
 
-    private String name;
-    private int quantity;
-    private String category;
-
-    // Getters & Setters
+    String name;
+    String category;
+    String etat;
+    @JsonFormat(pattern = "yyyy-MM-dd")// exemple : disponible, en panne, en maintenance
+    LocalDate dateAchat;        // format recommandé : yyyy-MM-dd
+    String marque;
+    @JsonFormat(pattern = "yyyy-MM-dd")// ex : Dell, HP, Epson...
+    LocalDate dateMaintenance;// dernière date de maintenance
 }
