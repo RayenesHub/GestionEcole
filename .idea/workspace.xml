@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/mailling.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/mailling.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRestAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/test/java/sae5/mailing/MailingApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <!-- Tu peux compléter ici selon ce que tu veux garder dans le changelist -->
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +46,9 @@
       "isMigrated": true
     }
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -66,49 +59,50 @@
     }
   </component>
   <component name="ProjectId" id="2vba6GiBMr4dJC7QVXnUOtrnwWz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <![CDATA[{
-      "keyToString": {
-        "Maven.Student [clean].executor": "Run",
-        "Maven.Student [install].executor": "Run",
-        "Maven.Equipement [clean].executor": "Run",
-        "Maven.Equipement [install].executor": "Run",
-        "Maven.config-server [clean].executor": "Run",
-        "Maven.config-server [install].executor": "Run",
-        "Maven.eurekaServer [clean].executor": "Run",
-        "Maven.eurekaServer [install].executor": "Run",
-        "Maven.gateway [clean].executor": "Run",
-        "Maven.gateway [install].executor": "Run",
-        "Maven.mailing [clean].executor": "Run",
-        "Maven.mailing [install].executor": "Run",
-        "RunOnceActivity.ShowReadmeOnStart": "true",
-        "RunOnceActivity.git.unshallow": "true",
-        "Spring Boot.ConfigServerApplication.executor": "Run",
-        "Spring Boot.EquipementApplication.executor": "Run",
-        "Spring Boot.EurekaServerApplication.executor": "Run",
-        "Spring Boot.EventApplication.executor": "Run",
-        "Spring Boot.GatewayApplication.executor": "Run",
-        "Spring Boot.MailingApplication.executor": "Run",
-        "Spring Boot.StudentApplication.executor": "Run",
-        "git-widget-placeholder": "main",
-        "ignore.virus.scanning.warn.message": "true",
-        "kotlin-language-version-configured": "true",
-        "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
-        "node.js.detected.package.eslint": "true",
-        "node.js.detected.package.tslint": "true",
-        "node.js.selected.package.eslint": "(autodetect)",
-        "node.js.selected.package.tslint": "(autodetect)",
-        "nodejs_package_manager_path": "npm",
-        "run.configurations.included.in.services": "true",
-        "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-        "vue.rearranger.settings.migration": "true"
-      }
-    }]]>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+    "keyToString": {
+      "Maven.Student [clean].executor": "Run",
+      "Maven.Student [install].executor": "Run",
+      "Maven.Equipement [clean].executor": "Run",
+      "Maven.Equipement [install].executor": "Run",
+      "Maven.config-server [clean].executor": "Run",
+      "Maven.config-server [install].executor": "Run",
+      "Maven.eurekaServer [clean].executor": "Run",
+      "Maven.eurekaServer [install].executor": "Run",
+      "Maven.gateway [clean].executor": "Run",
+      "Maven.gateway [install].executor": "Run",
+      "Maven.mailing [clean].executor": "Run",
+      "Maven.mailing [install].executor": "Run",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "RunOnceActivity.git.unshallow": "true",
+      "Spring Boot.ConfigServerApplication.executor": "Run",
+      "Spring Boot.EquipementApplication.executor": "Run",
+      "Spring Boot.EurekaServerApplication.executor": "Run",
+      "Spring Boot.EventApplication.executor": "Run",
+      "Spring Boot.GatewayApplication.executor": "Run",
+      "Spring Boot.MailingApplication.executor": "Run",
+      "Spring Boot.StudentApplication.executor": "Run",
+      "git-widget-placeholder": "main",
+      "ignore.virus.scanning.warn.message": "true",
+      "kotlin-language-version-configured": "true",
+      "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
+      "node.js.detected.package.eslint": "true",
+      "node.js.detected.package.tslint": "true",
+      "node.js.selected.package.eslint": "(autodetect)",
+      "node.js.selected.package.tslint": "(autodetect)",
+      "nodejs_package_manager_path": "npm",
+      "run.configurations.included.in.services": "true",
+      "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+      "vue.rearranger.settings.migration": "true"
+    }
+  }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -150,10 +144,6 @@
       <updated>1744399402497</updated>
       <workItem from="1744399404106" duration="8478000" />
       <workItem from="1744416051797" duration="2564000" />
-      <workItem from="1744561424088" duration="2111000" />
-      <workItem from="1744565671621" duration="17000" />
-      <workItem from="1744569187173" duration="8000" />
-      <workItem from="1744569256046" duration="40000" />
     </task>
     <servers />
   </component>
