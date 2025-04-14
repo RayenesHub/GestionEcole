@@ -9,12 +9,9 @@
         <option value="$PROJECT_DIR$/microservices/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/job/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/Student/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/microservices/Student/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/eurekaServer/pom.xml" />
-        <option value="$PROJECT_DIR$/backend/microservices/Equipement/pom.xml" />
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/backend/microservices/Event/pom.xml" />
       </list>
     </option>

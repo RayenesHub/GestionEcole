@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a097fd41-8f6a-4d46-a9c9-bbe7e76fd1f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/src/main/java/esprit/event/EventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/src/main/java/esprit/event/EventApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DinaBouchaddekh"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DinaBouchaddekh/GestionEcole.git",
+    "accountId": "110f78ce-1366-4c0d-ae2a-6df80536026b"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -31,7 +52,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole/backend",
+    "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,8 +64,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -58,6 +79,7 @@
       <updated>1739909578438</updated>
       <workItem from="1739909579649" duration="649000" />
       <workItem from="1744544612043" duration="34000" />
+      <workItem from="1744589062468" duration="37000" />
     </task>
     <servers />
   </component>

@@ -5,28 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/WeatherResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/Equipement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/Equipement.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/java/tn/esprit/equipement/EquipmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Equipement/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/Event.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/event.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +31,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DinaBouchaddekh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DinaBouchaddekh/GestionEcole.git&quot;,
+    &quot;accountId&quot;: &quot;110f78ce-1366-4c0d-ae2a-6df80536026b&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -58,44 +65,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Equipement [clean].executor": "Run",
-    "Maven.Equipement [install].executor": "Run",
-    "Maven.Student [clean].executor": "Run",
-    "Maven.Student [install].executor": "Run",
-    "Maven.config-server [clean].executor": "Run",
-    "Maven.config-server [install].executor": "Run",
-    "Maven.eurekaServer [clean].executor": "Run",
-    "Maven.eurekaServer [install].executor": "Run",
-    "Maven.gateway [clean].executor": "Run",
-    "Maven.gateway [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.EquipementApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.MailingApplication.executor": "Run",
-    "Spring Boot.StudentApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Equipement [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Equipement [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Student [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Student [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurekaServer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurekaServer [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EquipementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EventApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MailingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StudentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DINA/Desktop/GestionEcole&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -106,20 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudentApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjetWeb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjetWeb" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EventApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.configserver.ConfigServerApplication" />
@@ -137,6 +132,13 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Event" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.event.EventApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,8 +174,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -189,6 +191,11 @@
       <workItem from="1744416051797" duration="2564000" />
       <workItem from="1744544568298" duration="603000" />
       <workItem from="1744545755323" duration="18724000" />
+      <workItem from="1744589092501" duration="6772000" />
+      <workItem from="1744596025318" duration="39000" />
+      <workItem from="1744596098181" duration="15000" />
+      <workItem from="1744597415734" duration="5576000" />
+      <workItem from="1744603656440" duration="4535000" />
     </task>
     <servers />
   </component>

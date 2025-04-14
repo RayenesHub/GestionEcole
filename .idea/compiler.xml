@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gateway (1)" />
         <module name="config-server" />
+        <module name="Event" />
         <module name="mailing" />
         <module name="eurekaServer" />
         <module name="gateway" />
@@ -33,13 +34,11 @@
         <module name="Equipement" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Event" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Equipement" options="-parameters" />
+      <module name="Event" options="-parameters" />
       <module name="Student" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
