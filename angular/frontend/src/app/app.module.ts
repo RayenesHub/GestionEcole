@@ -12,6 +12,11 @@ import { EventsComponent } from './events/events.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
+
+import { MailComponent } from './mail/mail.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 import { EquipementComponent } from './equipement/equipement.component';
 import { FormsModule } from '@angular/forms';
 import { EquipementListComponent } from './equipement-list/equipement-list.component';
@@ -30,17 +35,27 @@ import { NgChartsModule } from 'ng2-charts';
     PricingComponent,
     ContactComponent,
     GetstartedComponent,
+MailingManagement
+    MailComponent
+
     EquipementComponent,
     EquipementListComponent,
     StatistiquesEquipementComponent
+main
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+ MailingManagement
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule
+
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
     NgChartsModule
+ main
   ],
   providers: [],
   bootstrap: [AppComponent]

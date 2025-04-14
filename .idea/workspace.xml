@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="" />
+    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/mailling.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/mailling.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailRestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/java/sae5/mailing/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/test/java/sae5/mailing/MailingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +56,9 @@
       "isMigrated": true
     }
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectColorInfo">
     {
       "customColor": "",
@@ -68,6 +83,8 @@
         "Maven.eurekaServer [install].executor": "Run",
         "Maven.gateway [clean].executor": "Run",
         "Maven.gateway [install].executor": "Run",
+        "Maven.mailing [clean].executor": "Run",
+        "Maven.mailing [install].executor": "Run",
         "RunOnceActivity.ShowReadmeOnStart": "true",
         "RunOnceActivity.git.unshallow": "true",
         "Spring Boot.ConfigServerApplication.executor": "Run",
@@ -118,8 +135,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -131,6 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744399402497</updated>
+      <workItem from="1744399404106" duration="8478000" />
+      <workItem from="1744416051797" duration="2564000" />
+      <workItem from="1744561424088" duration="2111000" />
+      <workItem from="1744565671621" duration="17000" />
+      <workItem from="1744569187173" duration="8000" />
+      <workItem from="1744569256046" duration="40000" />
     </task>
     <servers />
   </component>
