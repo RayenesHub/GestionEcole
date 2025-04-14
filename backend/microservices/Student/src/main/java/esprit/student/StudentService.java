@@ -7,6 +7,7 @@ import java.util.Optional;
 
 @Service
 public class StudentService {
+<<<<<<< HEAD
 
     @Autowired
     private StudentRepository studentRepository;
@@ -17,6 +18,11 @@ public class StudentService {
     @Autowired
     private BadWordsService badWordsService;
 
+=======
+    @Autowired
+    private StudentRepository studentRepository;
+
+>>>>>>> 0ea3751 (evennnt)
     public List<Student> findAll() {
         List<Student> students = studentRepository.findAll();
         if (students.isEmpty()) {
@@ -25,6 +31,7 @@ public class StudentService {
         return students;
     }
 
+<<<<<<< HEAD
     public Student save(Student student) {
         if (badWordsService.containsBadWord(student.getFirstName()) ||
                 badWordsService.containsBadWord(student.getLastName())) {
@@ -41,11 +48,24 @@ public class StudentService {
         return studentRepository.save(student);
     }
 
+=======
+
+    // Ajouter un étudiant
+    public Student save(Student student) {
+        return studentRepository.save(student);
+    }
+
+    // Trouver un étudiant par ID
+>>>>>>> 0ea3751 (evennnt)
     public Student findById(Long id) {
         Optional<Student> student = studentRepository.findById(id);
         return student.orElse(null);
     }
 
+<<<<<<< HEAD
+=======
+    // Supprimer un étudiant par ID
+>>>>>>> 0ea3751 (evennnt)
     public String deleteById(Long id) {
         if (studentRepository.existsById(id)) {
             studentRepository.deleteById(id);
@@ -55,3 +75,7 @@ public class StudentService {
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ea3751 (evennnt)

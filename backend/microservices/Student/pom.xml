@@ -38,6 +38,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+<<<<<<< HEAD
 		<!-- QR Code -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
@@ -67,6 +68,8 @@
 			<artifactId>io</artifactId>
 			<version>8.0.1</version>
 		</dependency>
+=======
+>>>>>>> 0ea3751 (evennnt)
 
 		<!-- Eureka Client -->
 		<dependency>
@@ -103,7 +106,14 @@
 			<scope>test</scope>
 		</dependency>
 
+<<<<<<< HEAD
 
+=======
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+>>>>>>> 0ea3751 (evennnt)
 
 
 		<!-- Spring Boot Test -->
@@ -112,6 +122,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
@@ -120,6 +131,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+=======
+>>>>>>> 0ea3751 (evennnt)
 
 
 	</dependencies>

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ProjetWeb.iml" filepath="$PROJECT_DIR$/.idea/ProjetWeb.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/backend/microservices/Student/Student.iml" filepath="$PROJECT_DIR$/backend/microservices/Student/Student.iml" />
+=======
+>>>>>>> 0ea3751 (evennnt)
     </modules>
   </component>
 </project>
