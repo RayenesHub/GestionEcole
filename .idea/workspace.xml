@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/config/KeycloakAdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/config/KeycloakRealmRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/config/RouteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/controller/GatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/dto/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/dto/UserInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/service/KeycloakAdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/main/java/esprit/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,11 +49,17 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vba6GiBMr4dJC7QVXnUOtrnwWz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,11 +76,17 @@
     "Maven.eurekaServer [install].executor": "Run",
     "Maven.gateway [clean].executor": "Run",
     "Maven.gateway [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.StudentApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -70,6 +99,11 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunDashboard">
@@ -82,20 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudentApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjetWeb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjetWeb" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.configserver.ConfigServerApplication" />
@@ -163,6 +184,7 @@
       <updated>1744399402497</updated>
       <workItem from="1744399404106" duration="8478000" />
       <workItem from="1744416051797" duration="2564000" />
+      <workItem from="1744589267801" duration="7910000" />
     </task>
     <servers />
   </component>

@@ -1,53 +1,83 @@
 services:
-  eureka:
-    build: ./backend/eurekaServer
-    image: rihem09/backend-eureka:latest
-    container_name: eureka-server
-    ports:
-      - "8761:8761"
-    networks:
-      - microservices-network
-
-  gateway:
-    build: ./backend/gateway
-    image: rihem09/backend-gateway:latest
-    container_name: gateway-service
-    ports:
-      - "8065:8065"
-    depends_on:
-      - eureka
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
-    networks:
-      - microservices-network
-
-  student-service:
-    build: ./backend/microservices/Student
-    image: rihem09/backend-student-service:latest
-    container_name: student-service
-    ports:
-      - "8045:8045"
-    depends_on:
-      - eureka
-      - gateway
-    environment:
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
-      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/student_db
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=root
-    networks:
-      - microservices-network
+#  eureka:
+#    build: ./backend/eurekaServer
+#    image: rihem09/backend-eureka:latest
+#    container_name: eureka-server
+#    ports:
+#      - "8761:8761"
+#    networks:
+#      - microservices-network
+#
+#  gateway:
+#    build: ./backend/gateway
+#    image: rihem09/backend-gateway:latest
+#    container_name: gateway-service
+#    ports:
+#      - "8065:8065"
+#    depends_on:
+#      - eureka
+#    environment:
+#      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+#    networks:
+#      - microservices-network
+#
+#  student-service:
+#    build: ./backend/microservices/Student
+#    image: rihem09/backend-student-service:latest
+#    container_name: student-service
+#    ports:
+#      - "8045:8045"
+#    depends_on:
+#      - eureka
+#      - gateway
+#    environment:
+#      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+#      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/student_db
+#      - SPRING_DATASOURCE_USERNAME=root
+#      - SPRING_DATASOURCE_PASSWORD=root
+#    networks:
+#      - microservices-network
 
   mysql:
     image: mysql:8
     container_name: mysql
     environment:
-      MYSQL_DATABASE: student_db
+      MYSQL_DATABASE: keycloak_db
+      MYSQL_ROOT_USER: root
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
+    restart: unless-stopped
+    healthcheck:
+        test: [ "CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}" ]
+        interval: 10s
+        timeout: 5s
+        retries: 5
     networks:
       - microservices-network
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak
+    command: [ "start-dev" ]
+    environment:
+      KC_DB: mysql
+      KC_DB_URL: jdbc:mysql://mysql:3306/keycloak_db
+      KC_DB_USERNAME: root
+      KC_DB_PASSWORD: root
+      KC_HOSTNAME: localhost
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - "9090:8080"
+
+    depends_on:
+      mysql: # <-- DÉPENDANCE CONDITIONNELLE AJOUTÉE/CORRIGÉE
+        condition: service_healthy # Attend que le healthcheck de mysql passe
+    networks:
+      - microservices-network
+    restart: unless-stopped
+
 
 networks:
   microservices-network:
