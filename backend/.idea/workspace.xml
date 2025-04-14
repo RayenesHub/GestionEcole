@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a097fd41-8f6a-4d46-a9c9-bbe7e76fd1f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/services/mail.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/services/mail.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/mailling.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/mailling.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +17,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -33,9 +35,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "MailingManagement",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LENOVO/IdeaProjects/GestionEcole",
+    "last_opened_file_path": "C:/Users/LENOVO/IdeaProjects/GestionEcole/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +71,7 @@
       <workItem from="1744560820742" duration="227000" />
       <workItem from="1744561059282" duration="298000" />
       <workItem from="1744561371262" duration="51000" />
+      <workItem from="1744619265978" duration="101000" />
     </task>
     <servers />
   </component>

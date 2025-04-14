@@ -16,7 +16,7 @@ export interface Mail {
 })
 export class MailService {
 
-  private apiUrl = 'http://localhost:8080/mailing/mailing';
+  private apiUrl = 'http://localhost:8083/mailing/mailing';
 
  constructor(private http: HttpClient) {}
 
