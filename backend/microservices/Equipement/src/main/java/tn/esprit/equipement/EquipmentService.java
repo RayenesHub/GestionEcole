@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 @Service
 public class EquipmentService {
@@ -37,6 +36,7 @@ public class EquipmentService {
     public List<Equipment> findByCategory(String category) {
         return repository.findByCategory(category);
     }
+
     public Map<String, Long> getStatistiquesParEtat() {
         List<Object[]> results = repository.countEquipementsByEtat();
         Map<String, Long> stats = new HashMap<>();
@@ -45,5 +45,4 @@ public class EquipmentService {
         }
         return stats;
     }
-
 }

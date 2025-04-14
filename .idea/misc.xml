@@ -9,24 +9,29 @@
         <option value="$PROJECT_DIR$/microservices/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/job/pom.xml" />
         <option value="$PROJECT_DIR$/microservices/Student/pom.xml" />
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/backend/microservices/mailing/pom.xml" />
         <option value="$PROJECT_DIR$/backend/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/backend/microservices/Student/pom.xml" />
         <option value="$PROJECT_DIR$/backend/eurekaServer/pom.xml" />
+
+        <option value="$PROJECT_DIR$/backend/microservices/Equipement/pom.xml" />
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
-=======
+
+        <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
+
         <option value="$PROJECT_DIR$/backend/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/backend/eurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/backend/gateway/pom.xml" />
->>>>>>> 0ea3751 (evennnt)
+
         <option value="$PROJECT_DIR$/backend/microservices/Event/pom.xml" />
+
       </list>
     </option>
   </component>
-<<<<<<< HEAD
+
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK" />
-=======
+
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
->>>>>>> 0ea3751 (evennnt)
+
 </project>

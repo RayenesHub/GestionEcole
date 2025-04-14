@@ -4,640 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/student-ms.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/BadWordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/BadWordsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/BadWordsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/QRCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/home/home.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/demo.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/fonts.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/kaiadmin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/kaiadmin.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/kaiadmin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/plugins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/plugins.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/css/plugins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/fontawesome/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/simple-line-icons/Simple-Line-Icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/simple-line-icons/Simple-Line-Icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/simple-line-icons/Simple-Line-Icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/summernote/summernote.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/summernote/summernote.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/summernote/summernote.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/fonts/summernote/summernote.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/arashmil.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/bg-404.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/blogpost.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/chadengle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example1-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example10-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example11-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example12-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example2-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example3-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example4-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example5-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example6-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example7-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example8-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example9-300x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/example9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/logo1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/logo2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/logoinvoice.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/examples/product8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ae.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/af.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/al.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/am.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/an.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/as.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/at.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/au.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/aw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/az.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/be.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/br.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/by.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/bz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/catalonia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ci.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/co.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/cz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/dj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/dk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/dm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/do.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/dz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/eg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/eh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/england.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/er.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/es.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/et.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/europeanunion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/fr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/gy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/hk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/hm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/hn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/hr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ht.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/hu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/id.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/il.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/in.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/io.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/iq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/is.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/jm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/jo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/jp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/km.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/kz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/la.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/li.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/lv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/mz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/na.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ni.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/no.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/np.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/nz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/om.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/pw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/py.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/qa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/re.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/rs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/rw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/scotland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/se.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/si.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/so.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/st.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/sz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/td.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/th.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/to.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/tz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/um.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/uy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/uz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/va.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/vc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/vg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/vn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/vu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/wales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/wf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ws.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/ye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/yt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/za.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/zm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/flags/zw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/img-shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/jm_denis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/demo9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/logo_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/logo_dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/logo_documentation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/logo_light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/kaiadmin/logo_light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/logoproduct.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/logoproduct2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/logoproduct3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/mlane.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/profile2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/sauro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/talha.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_Hello_qnas.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_Taken_if77.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_blank_canvas_3rbb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_creative_team_r90h.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_empty_xct9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_no_data_qbuo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_not_found_60pq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_page_not_found_su7k.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_sign_in_e6hj.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_tabs_jf82.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_update_uxn2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/undraw/undraw_upgrade_06a0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/img/visa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/core/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/core/jquery-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/core/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/kaiadmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/kaiadmin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/chart-circle/circles.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/chart.js/chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/datatables/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/dropzone/dropzone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/gmaps/gmaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jquery.magnific-popup/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jquery.validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jsvectormap/jsvectormap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/jsvectormap/world.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/list.js/list.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/moment/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/owl-carousel/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/owl-carousel/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/sortable/sortable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/sticky-sidebar/sticky-sidebar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/summernote/summernote-lite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/sweetalert/sweetalert.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/plugin/webfont/webfont.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/setting-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/assets/js/setting-demo2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/backend/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/about/about.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/about/about.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/about/about.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/about/about.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/contact/contact.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/contact/contact.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/contact/contact.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/contact/contact.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/courses/courses.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/courses/courses.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/courses/courses.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/courses/courses.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/events/events.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/events/events.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/events/events.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/events/events.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/getstarted/getstarted.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/getstarted/getstarted.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/getstarted/getstarted.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/getstarted/getstarted.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/pricing/pricing.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/pricing/pricing.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/pricing/pricing.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/pricing/pricing.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/trainers/trainers.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/trainers/trainers.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/trainers/trainers.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/app/trainers/trainers.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/about-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/course-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/course-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/course-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/course-details.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/events-item-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/events-item-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/tabs/tab-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/tabs/tab-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/tabs/tab-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/tabs/tab-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/tabs/tab-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/team/team-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/testimonials/testimonials-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/testimonials/testimonials-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/testimonials/testimonials-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/testimonials/testimonials-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/testimonials/testimonials-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-3-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/img/trainers/trainer-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/scss/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/aos/aos.cjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/aos/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/aos/aos.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/aos/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/aos/aos.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/bootstrap-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/bootstrap-icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/css/prb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/glightbox/css/glightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/glightbox/css/glightbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/glightbox/js/glightbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/glightbox/js/glightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/php-email-form/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/purecounter/purecounter_vanilla.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/purecounter/purecounter_vanilla.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/swiper/swiper-bundle.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/swiper/swiper-bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/assets/vendor/swiper/swiper-bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/frontend/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/ClasseInspirationResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/ClasseRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/ClasseRestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/QuoteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/java/esprit/student/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/WeatherResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/Event.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config-server/src/main/resources/config/event.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/java/esprit/event/EventApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/test/java/esprit/event/EventApplicationTests.java" afterDir="false" />
->>>>>>> 0ea3751 (evennnt)
-    </list>
+    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -646,113 +13,88 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="Interface" />
->>>>>>> 0ea3751 (evennnt)
-        <option value="Dockerfile" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-=======
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;DinaBouchaddekh&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DinaBouchaddekh/GestionEcole.git&quot;,
-    &quot;accountId&quot;: &quot;110f78ce-1366-4c0d-ae2a-6df80536026b&quot;
-  }
-}</component>
->>>>>>> 0ea3751 (evennnt)
+  <component name="GitHubPullRequestSearchHistory">
+    {
+      "lastFilter": {
+        "state": "OPEN",
+        "assignee": "DinaBouchaddekh"
+      }
+    }
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    {
+      "selectedUrlAndAccountId": {
+        "url": "https://github.com/DinaBouchaddekh/GestionEcole.git",
+        "accountId": "110f78ce-1366-4c0d-ae2a-6df80536026b"
+      }
+    }
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-<<<<<<< HEAD
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2vgETxdrenmpscYBgWodZdXxbLh" />
-=======
-  &quot;associatedIndex&quot;: 6
-}</component>
+  <component name="KubernetesApiProvider">
+    {
+      "isMigrated": true
+    }
+  </component>
+  <component name="ProjectColorInfo">
+    {
+      "customColor": "",
+      "associatedIndex": 6
+    }
+  </component>
   <component name="ProjectId" id="2vba6GiBMr4dJC7QVXnUOtrnwWz" />
->>>>>>> 0ea3751 (evennnt)
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-<<<<<<< HEAD
-    &quot;Maven.Student [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Student [install].executor&quot;: &quot;Run&quot;,
-=======
-    &quot;Maven.Equipement [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Equipement [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Student [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Student [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.config-server [install].executor&quot;: &quot;Run&quot;,
->>>>>>> 0ea3751 (evennnt)
-    &quot;Maven.eurekaServer [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.eurekaServer [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gateway [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gateway [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-<<<<<<< HEAD
-    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-=======
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EquipementApplication.executor&quot;: &quot;Run&quot;,
->>>>>>> 0ea3751 (evennnt)
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EventApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MailingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.StudentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-<<<<<<< HEAD
-=======
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DINA/Desktop/GestionEcole&quot;,
->>>>>>> 0ea3751 (evennnt)
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-<<<<<<< HEAD
-    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <![CDATA[{
+      "keyToString": {
+        "Maven.Student [clean].executor": "Run",
+        "Maven.Student [install].executor": "Run",
+        "Maven.Equipement [clean].executor": "Run",
+        "Maven.Equipement [install].executor": "Run",
+        "Maven.config-server [clean].executor": "Run",
+        "Maven.config-server [install].executor": "Run",
+        "Maven.eurekaServer [clean].executor": "Run",
+        "Maven.eurekaServer [install].executor": "Run",
+        "Maven.gateway [clean].executor": "Run",
+        "Maven.gateway [install].executor": "Run",
+        "RunOnceActivity.ShowReadmeOnStart": "true",
+        "RunOnceActivity.git.unshallow": "true",
+        "Spring Boot.ConfigServerApplication.executor": "Run",
+        "Spring Boot.EquipementApplication.executor": "Run",
+        "Spring Boot.EurekaServerApplication.executor": "Run",
+        "Spring Boot.EventApplication.executor": "Run",
+        "Spring Boot.GatewayApplication.executor": "Run",
+        "Spring Boot.MailingApplication.executor": "Run",
+        "Spring Boot.StudentApplication.executor": "Run",
+        "git-widget-placeholder": "main",
+        "ignore.virus.scanning.warn.message": "true",
+        "kotlin-language-version-configured": "true",
+        "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
+        "node.js.detected.package.eslint": "true",
+        "node.js.detected.package.tslint": "true",
+        "node.js.selected.package.eslint": "(autodetect)",
+        "node.js.selected.package.tslint": "(autodetect)",
+        "nodejs_package_manager_path": "npm",
+        "run.configurations.included.in.services": "true",
+        "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+        "vue.rearranger.settings.migration": "true"
+      }
+    }]]>
+  </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-=======
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
->>>>>>> 0ea3751 (evennnt)
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -763,92 +105,7 @@
       </set>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunManager" selected="Spring Boot.StudentApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjetWeb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjetWeb" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.configserver.ConfigServerApplication" />
-=======
-  <component name="RunManager" selected="Spring Boot.EventApplication">
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.configserver.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EquipementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Equipement" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.equipement.EquipementApplication" />
->>>>>>> 0ea3751 (evennnt)
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eurekaServer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-<<<<<<< HEAD
-      <module name="gateway (1)" />
-=======
-      <module name="Event" />
->>>>>>> 0ea3751 (evennnt)
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.event.EventApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.gateway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mailing" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-<<<<<<< HEAD
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-=======
->>>>>>> 0ea3751 (evennnt)
-      <module name="Student" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-<<<<<<< HEAD
     <list>
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -857,14 +114,12 @@
       <item itemvalue="Spring Boot.MailingApplication" />
       <item itemvalue="Spring Boot.StudentApplication" />
     </list>
-=======
->>>>>>> 0ea3751 (evennnt)
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -876,29 +131,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744399402497</updated>
-<<<<<<< HEAD
-      <workItem from="1744399404106" duration="16916000" />
-      <workItem from="1744558333876" duration="5975000" />
-      <workItem from="1744564460413" duration="31000" />
-      <workItem from="1744564500031" duration="21108000" />
-=======
-      <workItem from="1744399404106" duration="8478000" />
-      <workItem from="1744416051797" duration="2564000" />
-      <workItem from="1744544568298" duration="603000" />
-      <workItem from="1744545755323" duration="18724000" />
-      <workItem from="1744589092501" duration="6772000" />
-      <workItem from="1744596025318" duration="39000" />
-      <workItem from="1744596098181" duration="15000" />
-      <workItem from="1744597415734" duration="5576000" />
-      <workItem from="1744603656440" duration="4535000" />
->>>>>>> 0ea3751 (evennnt)
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-<<<<<<< HEAD
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
   </component>
@@ -906,6 +144,4 @@
     <expand />
     <select />
   </component>
-=======
->>>>>>> 0ea3751 (evennnt)
 </project>

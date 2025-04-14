@@ -29,8 +29,8 @@ public class EquipmentController {
         try {
             return service.save(equipment);
         } catch (Exception e) {
-            e.printStackTrace(); // 👉 Affiche l’erreur réelle dans la console
-            throw e; // ou retourne ResponseEntity avec message d'erreur
+            e.printStackTrace();
+            throw e;
         }
     }
 
@@ -63,9 +63,9 @@ public class EquipmentController {
     public List<Equipment> getByCategory(@PathVariable String category) {
         return service.findByCategory(category);
     }
+
     @GetMapping("/stats/etat")
     public Map<String, Long> getStatsParEtat() {
         return service.getStatistiquesParEtat();
     }
-
 }

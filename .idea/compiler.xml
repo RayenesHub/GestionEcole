@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+
+        <module name="config-server" />
+
         <module name="gateway (1)" />
         <module name="config-server" />
-<<<<<<< HEAD
-=======
+
         <module name="Event" />
->>>>>>> 0ea3751 (evennnt)
+
         <module name="mailing" />
         <module name="eurekaServer" />
         <module name="gateway" />
@@ -23,15 +25,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-<<<<<<< HEAD
+
         </processorPath>
         <module name="Student" />
       </profile>
-=======
+
+
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="Student" />
       </profile>
+
       <profile name="Annotation profile for Equipement" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -41,24 +45,27 @@
         </processorPath>
         <module name="Equipement" />
       </profile>
->>>>>>> 0ea3751 (evennnt)
+
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Event" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-<<<<<<< HEAD
-=======
+
+      <module name="Equipement" options="-parameters" />
+
       <module name="Equipement" options="-parameters" />
       <module name="Event" options="-parameters" />
->>>>>>> 0ea3751 (evennnt)
+
       <module name="Student" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
-<<<<<<< HEAD
+
       <module name="gateway (1)" options="-parameters" />
-=======
->>>>>>> 0ea3751 (evennnt)
+
       <module name="mailing" options="-parameters" />
     </option>
   </component>

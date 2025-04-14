@@ -1,22 +1,17 @@
 package tn.esprit.equipement;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import jakarta.persistence.*;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 @Entity
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Equipment {
@@ -28,9 +23,12 @@ public class Equipment {
     String name;
     String category;
     String etat;
-    @JsonFormat(pattern = "yyyy-MM-dd")// exemple : disponible, en panne, en maintenance
-    LocalDate dateAchat;        // format recommandé : yyyy-MM-dd
+
+    @JsonFormat(pattern = "yyyy-MM-dd") // exemple : 2024-04-10
+    LocalDate dateAchat;
+
     String marque;
-    @JsonFormat(pattern = "yyyy-MM-dd")// ex : Dell, HP, Epson...
-    LocalDate dateMaintenance;// dernière date de maintenance
+
+    @JsonFormat(pattern = "yyyy-MM-dd") // exemple : 2025-01-15
+    LocalDate dateMaintenance;
 }
