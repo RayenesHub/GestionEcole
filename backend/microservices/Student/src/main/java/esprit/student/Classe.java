@@ -1,20 +1,27 @@
 package esprit.student;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.Setter;
 
+import java.util.List;
 
+@Getter
+@Setter
 @Entity
+@JsonIgnoreProperties({"students"})
 public class Classe {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Getter
     private String nom;
-    @Getter
     private String niveau;
+
+    @OneToMany(mappedBy = "classe")
+    private List<Student> students;
 
     public Classe() {}
 
@@ -22,20 +29,4 @@ public class Classe {
         this.nom = nom;
         this.niveau = niveau;
     }
-
-
-
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public void setNiveau(String niveau) {
-        this.niveau = niveau;
-    }
-
 }

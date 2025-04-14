@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gateway (1)" />
+        <module name="config-server" />
         <module name="mailing" />
         <module name="eurekaServer" />
         <module name="gateway" />
@@ -25,8 +27,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Student" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="gateway (1)" options="-parameters" />
       <module name="mailing" options="-parameters" />
     </option>
   </component>

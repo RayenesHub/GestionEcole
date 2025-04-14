@@ -1,20 +1,28 @@
 package esprit.student;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @Entity
 public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Lob
+    private byte[] photo;
 
     private String firstName;
     private String lastName;
     private String dateOfBirth;
 
-    @ManyToOne
-    @JoinColumn(name = "classe_id") // FK dans table Student
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "classe_id")
+    @JsonIgnoreProperties({"students"})
     private Classe classe;
 
     public Student() {}
@@ -23,48 +31,6 @@ public class Student {
         this.lastName = lastName;
         this.firstName = firstName;
         this.dateOfBirth = dateOfBirth;
-        this.classe = classe;
-    }
-
-    // Getters and setters
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
-
-    public Classe getClasse() {
-        return classe;
-    }
-
-    public void setClasse(Classe classe) {
         this.classe = classe;
     }
 }
