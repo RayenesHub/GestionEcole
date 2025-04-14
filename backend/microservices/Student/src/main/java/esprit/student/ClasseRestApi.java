@@ -4,8 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+<<<<<<< HEAD
+=======
 import org.springframework.web.client.RestTemplate;
 import esprit.student.QuoteResponse;
+>>>>>>> 0ea3751 (evennnt)
 
 
 import java.util.List;
@@ -37,6 +40,8 @@ public class ClasseRestApi {
         return classeService.deleteById(id);
     }
 
+<<<<<<< HEAD
+=======
     @GetMapping("/{id}/inspiration")
     public ResponseEntity<?> getClasseInspiration(@PathVariable Long id) {
         Classe classe = classeService.findById(id);
@@ -71,6 +76,7 @@ public class ClasseRestApi {
     // RestTemplate restTemplate = new RestTemplate();
         // String quoteApiUrl = "https://api.quotable.io/random";
         // QuoteResponse quote = restTemplate.getForObject(quoteApiUrl, QuoteResponse.class);
+>>>>>>> 0ea3751 (evennnt)
 
 
 

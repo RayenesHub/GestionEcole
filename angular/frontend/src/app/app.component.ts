@@ -8,3 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'frontend';
 }
+export interface Equipement {
+  id: number;
+  name: string;
+  quantity: number;
+  category: string;
+}
+

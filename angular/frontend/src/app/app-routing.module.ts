@@ -9,18 +9,26 @@ import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
 
+import { MailComponent } from './mail/mail.component';
+
+import { EquipementComponent } from './equipement/equipement.component';
+import { StatistiquesEquipementComponent } from './statistiques-equipement/statistiques-equipement.component';
+
+
 
 
 const routes: Routes = [
   {path: '',component:HomeComponent},
   { path: 'about', component: AboutComponent },
+  { path: 'equipements', component: EquipementComponent },
+  { path: 'equipements/statistiques', component: StatistiquesEquipementComponent },
   { path: 'courses', component: CoursesComponent },
   { path: 'trainers', component: TrainersComponent },
   { path: 'events', component: EventsComponent },
   { path: 'pricing', component: PricingComponent },
-  { path: 'contact', component: ContactComponent},
+  { path: 'mail', component: MailComponent},
   { path: 'getstarted', component: GetstartedComponent},
-  
+
 ];
 
 @NgModule({

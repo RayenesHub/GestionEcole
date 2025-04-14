@@ -7,7 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+
         <module name="config-server" />
+
+        <module name="gateway (1)" />
+        <module name="config-server" />
+
+        <module name="Event" />
+
         <module name="mailing" />
         <module name="eurekaServer" />
         <module name="gateway" />
@@ -18,9 +25,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+
         </processorPath>
         <module name="Student" />
       </profile>
+
+
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="Student" />
+      </profile>
+
       <profile name="Annotation profile for Equipement" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -30,6 +45,7 @@
         </processorPath>
         <module name="Equipement" />
       </profile>
+
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Event" target="17" />
@@ -37,11 +53,19 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+
       <module name="Equipement" options="-parameters" />
+
+      <module name="Equipement" options="-parameters" />
+      <module name="Event" options="-parameters" />
+
       <module name="Student" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
+
+      <module name="gateway (1)" options="-parameters" />
+
       <module name="mailing" options="-parameters" />
     </option>
   </component>

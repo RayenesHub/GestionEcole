@@ -38,6 +38,23 @@ services:
 #    networks:
 #      - microservices-network
 
+  mailing-service:
+    build: ./backend/microservices/mailing
+    image: rayene8/backend-mailing-service
+    container_name: mailing-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka
+      - gateway
+      - mysql
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/mailing_db
+      - SPRING_DATASOURCE_USERNAME=root
+    networks:
+      - microservices-network
+
   mysql:
     image: mysql:8
     container_name: mysql
