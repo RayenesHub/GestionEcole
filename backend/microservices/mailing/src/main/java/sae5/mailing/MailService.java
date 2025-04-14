@@ -30,4 +30,9 @@ public class MailService {
     public Mail getMailById(int id) {
         return mailRepo.findMailById(id);
     }
+
+    public List<Mail> searchMailsBySubject(String subject) {
+        return mailRepo.findBySubjectContainingIgnoreCase(subject);
+    }
+
 }

@@ -8,6 +8,7 @@ import { EventsComponent } from './events/events.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
+import { MailComponent } from './mail/mail.component';
 
 
 
@@ -18,9 +19,9 @@ const routes: Routes = [
   { path: 'trainers', component: TrainersComponent },
   { path: 'events', component: EventsComponent },
   { path: 'pricing', component: PricingComponent },
-  { path: 'contact', component: ContactComponent},
+  { path: 'mail', component: MailComponent},
   { path: 'getstarted', component: GetstartedComponent},
-  
+
 ];
 
 @NgModule({

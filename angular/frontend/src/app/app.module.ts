@@ -12,6 +12,9 @@ import { EventsComponent } from './events/events.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
+import { MailComponent } from './mail/mail.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,15 @@ import { GetstartedComponent } from './getstarted/getstarted.component';
     EventsComponent,
     PricingComponent,
     ContactComponent,
-    GetstartedComponent
+    GetstartedComponent,
+    MailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

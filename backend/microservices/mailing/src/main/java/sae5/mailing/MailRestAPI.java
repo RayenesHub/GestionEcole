@@ -30,10 +30,12 @@ public class MailRestAPI {
         return mailList;
     }
 
-    @PutMapping("mod_mail")
-    public Mail modMail(@RequestBody Mail mail) {
+    @PutMapping("/mod_mail/{id}")
+    public Mail modMail(@PathVariable int id, @RequestBody Mail mail) {
+        mail.setId(id); // s’assurer que l’ID est bien défini
         return mailService.updateMail(mail);
     }
+
     @DeleteMapping("del_mail/{idMail}")
     public void delMail(@PathVariable int idMail) {
         mailService.deleteMail(idMail);
@@ -58,6 +60,12 @@ public class MailRestAPI {
                 .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=mail_" + id + ".pdf")
                 .contentType(MediaType.APPLICATION_PDF)
                 .body(pdfBytes);
+    }
+
+    @GetMapping("/search")
+    public List<Mail> searchMails(@RequestParam String subject) {
+        return mailService.searchMailsBySubject(subject);
+
     }
 
 
