@@ -1,20 +1,41 @@
 package esprit.student;
 
+<<<<<<< HEAD
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+=======
 import jakarta.persistence.*;
 
+>>>>>>> 0ea3751 (evennnt)
 @Entity
 public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+<<<<<<< HEAD
+    @Lob
+    private byte[] photo;
+=======
+>>>>>>> 0ea3751 (evennnt)
 
     private String firstName;
     private String lastName;
     private String dateOfBirth;
 
+<<<<<<< HEAD
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "classe_id")
+    @JsonIgnoreProperties({"students"})
+=======
     @ManyToOne
     @JoinColumn(name = "classe_id") // FK dans table Student
+>>>>>>> 0ea3751 (evennnt)
     private Classe classe;
 
     public Student() {}
@@ -25,6 +46,8 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
         this.classe = classe;
     }
+<<<<<<< HEAD
+=======
 
     // Getters and setters
 
@@ -67,4 +90,5 @@ public class Student {
     public void setClasse(Classe classe) {
         this.classe = classe;
     }
+>>>>>>> 0ea3751 (evennnt)
 }

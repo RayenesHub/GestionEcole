@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Event/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/Student/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/microservices/mailing/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="a51792f9-6029-4d61-995a-e2964600d5e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,50 +22,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">
+    {
+      "lastFilter": {
+        "state": "OPEN",
+        "assignee": "DinaBouchaddekh"
+      }
+    }
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    {
+      "selectedUrlAndAccountId": {
+        "url": "https://github.com/DinaBouchaddekh/GestionEcole.git",
+        "accountId": "110f78ce-1366-4c0d-ae2a-6df80536026b"
+      }
+    }
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="KubernetesApiProvider">
+    {
+      "isMigrated": true
+    }
+  </component>
+  <component name="ProjectColorInfo">
+    {
+      "customColor": "",
+      "associatedIndex": 6
+    }
+  </component>
   <component name="ProjectId" id="2vba6GiBMr4dJC7QVXnUOtrnwWz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Equipement [clean].executor": "Run",
-    "Maven.Equipement [install].executor": "Run",
-    "Maven.Student [clean].executor": "Run",
-    "Maven.Student [install].executor": "Run",
-    "Maven.config-server [clean].executor": "Run",
-    "Maven.config-server [install].executor": "Run",
-    "Maven.eurekaServer [clean].executor": "Run",
-    "Maven.eurekaServer [install].executor": "Run",
-    "Maven.gateway [clean].executor": "Run",
-    "Maven.gateway [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.StudentApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <![CDATA[{
+      "keyToString": {
+        "Maven.Student [clean].executor": "Run",
+        "Maven.Student [install].executor": "Run",
+        "Maven.Equipement [clean].executor": "Run",
+        "Maven.Equipement [install].executor": "Run",
+        "Maven.config-server [clean].executor": "Run",
+        "Maven.config-server [install].executor": "Run",
+        "Maven.eurekaServer [clean].executor": "Run",
+        "Maven.eurekaServer [install].executor": "Run",
+        "Maven.gateway [clean].executor": "Run",
+        "Maven.gateway [install].executor": "Run",
+        "RunOnceActivity.ShowReadmeOnStart": "true",
+        "RunOnceActivity.git.unshallow": "true",
+        "Spring Boot.ConfigServerApplication.executor": "Run",
+        "Spring Boot.EquipementApplication.executor": "Run",
+        "Spring Boot.EurekaServerApplication.executor": "Run",
+        "Spring Boot.EventApplication.executor": "Run",
+        "Spring Boot.GatewayApplication.executor": "Run",
+        "Spring Boot.MailingApplication.executor": "Run",
+        "Spring Boot.StudentApplication.executor": "Run",
+        "git-widget-placeholder": "main",
+        "ignore.virus.scanning.warn.message": "true",
+        "kotlin-language-version-configured": "true",
+        "last_opened_file_path": "C:/Users/DINA/Desktop/GestionEcole",
+        "node.js.detected.package.eslint": "true",
+        "node.js.detected.package.tslint": "true",
+        "node.js.selected.package.eslint": "(autodetect)",
+        "node.js.selected.package.tslint": "(autodetect)",
+        "nodejs_package_manager_path": "npm",
+        "run.configurations.included.in.services": "true",
+        "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+        "vue.rearranger.settings.migration": "true"
+      }
+    }]]>
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,67 +106,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.StudentApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjetWeb" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjetWeb" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.configserver.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EquipementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Equipement" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.equipement.EquipementApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eurekaServer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.gateway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mailing" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="sae5.mailing.MailingApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Student" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.student.StudentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EventApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MailingApplication" />
+      <item itemvalue="Spring Boot.StudentApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -161,12 +131,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744399402497</updated>
-      <workItem from="1744399404106" duration="8478000" />
-      <workItem from="1744416051797" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
