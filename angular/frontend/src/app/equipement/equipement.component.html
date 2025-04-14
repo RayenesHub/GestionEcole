@@ -1,0 +1,96 @@
+<section id="ajout-equipement" class="container mt-5 mb-5">
+  <div class="section-title">
+    <h2>Équipements</h2>
+    <p>Ajouter un nouvel équipement</p>
+  </div>
+
+  <!-- ✅ Formulaire d'ajout ou modification -->
+  <form (ngSubmit)="submit()" class="row g-3 bg-light p-4 rounded shadow">
+    <div class="col-md-6">
+      <label for="name" class="form-label">Nom</label>
+      <input type="text" [(ngModel)]="equipement.name" name="name" class="form-control" required />
+    </div>
+
+    <div class="col-md-6">
+      <label for="category" class="form-label">Catégorie</label>
+      <input type="text" [(ngModel)]="equipement.category" name="category" class="form-control" required />
+    </div>
+
+    <div class="col-md-6">
+      <label for="etat" class="form-label">État</label>
+      <select [(ngModel)]="equipement.etat" name="etat" class="form-select" required>
+        <option value="Disponible">Disponible</option>
+        <option value="En panne">En panne</option>
+        <option value="Maintenance">Maintenance</option>
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <label for="marque" class="form-label">Marque</label>
+      <input type="text" [(ngModel)]="equipement.marque" name="marque" class="form-control" required />
+    </div>
+
+    <div class="col-md-6">
+      <label for="dateAchat" class="form-label">Date d'achat</label>
+      <input type="date" [(ngModel)]="equipement.dateAchat" name="dateAchat" class="form-control" required />
+    </div>
+
+    <div class="col-md-6">
+      <label for="dateMaintenance" class="form-label">Date de maintenance</label>
+      <input type="date" [(ngModel)]="equipement.dateMaintenance" name="dateMaintenance" class="form-control" />
+    </div>
+
+    <div class="col-12 text-end">
+      <button type="submit" class="btn btn-success">
+        {{ editingId ? '💾 Enregistrer les modifications' : '➕ Ajouter l\'équipement' }}
+      </button>
+    </div>
+  </form>
+</section>
+
+<!-- 🔍 Filtres -->
+<div class="container mt-5">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="etatFilter" class="form-label">Filtrer par État :</label>
+      <select class="form-select" id="etatFilter" [(ngModel)]="etatFilter" (change)="applyFilters()">
+        <option value="">Tous</option>
+        <option>Disponible</option>
+        <option>En panne</option>
+        <option>Maintenance</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="categoryFilter" class="form-label">Filtrer par Catégorie :</label>
+      <input type="text" id="categoryFilter" class="form-control" [(ngModel)]="categoryFilter" (input)="applyFilters()" />
+    </div>
+  </div>
+
+  <!-- 📤 Export boutons -->
+  <div class="text-end mb-3">
+    <button class="btn btn-outline-danger me-2" (click)="exportPDF()">📄 Exporter PDF</button>
+    <button class="btn btn-outline-success" (click)="exportExcel()">📊 Exporter Excel</button>
+  </div>
+
+  <!-- 📋 Liste filtrée avec pagination -->
+  <app-equipement-list
+    [equipements]="filteredEquipements.slice((page - 1) * pageSize, page * pageSize)"
+    (edit)="editEquipement($event)"
+    (delete)="deleteEquipement($event)">
+  </app-equipement-list>
+
+  <!-- 📌 Pagination -->
+  <nav class="mt-4">
+    <ul class="pagination justify-content-center">
+      <li class="page-item" [class.disabled]="page === 1">
+        <button class="page-link" (click)="page = page - 1">Précédent</button>
+      </li>
+      <li class="page-item disabled">
+        <span class="page-link">Page {{ page }}</span>
+      </li>
+      <li class="page-item" [class.disabled]="page * pageSize >= filteredEquipements.length">
+        <button class="page-link" (click)="page = page + 1">Suivant</button>
+      </li>
+    </ul>
+  </nav>
+</div>

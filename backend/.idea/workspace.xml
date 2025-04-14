@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a097fd41-8f6a-4d46-a9c9-bbe7e76fd1f1" name="Changes" comment="">
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular/frontend/src/app/app.module.ts" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
@@ -22,6 +29,7 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -33,9 +41,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+
     "last_opened_file_path": "C:/Users/LENOVO/IdeaProjects/GestionEcole",
+
+    "last_opened_file_path": "C:/Users/Msi/Desktop/GestionEcole/backend",
+
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,8 +65,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -66,9 +79,13 @@
       <option name="presentableId" value="Default" />
       <updated>1739909578438</updated>
       <workItem from="1739909579649" duration="649000" />
+
       <workItem from="1744560820742" duration="227000" />
       <workItem from="1744561059282" duration="298000" />
       <workItem from="1744561371262" duration="51000" />
+
+      <workItem from="1744544612043" duration="34000" />
+
     </task>
     <servers />
   </component>
