@@ -1,5 +1,9 @@
 package esprit.event;
 
+<<<<<<< HEAD
+=======
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+>>>>>>> 0ea3751 (evennnt)
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -7,6 +11,10 @@ import jakarta.persistence.Id;
 import java.util.Date;
 
 @Entity
+<<<<<<< HEAD
+=======
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+>>>>>>> 0ea3751 (evennnt)
 public class Event {
     @Id
     @GeneratedValue
